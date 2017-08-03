@@ -1,0 +1,5 @@
+export { PostForm } from './PostForm/PostForm.component'
+export { PostsList } from './PostsList/PostsList.component'
+export { PostsListItem } from './PostsListItem/PostsListItem.component'
+export { Button } from './Button/Button.component'
+export { ToggleSwitch } from './Toggle/Toggle.component'
