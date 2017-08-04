@@ -12,8 +12,12 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      posts: postsData.posts
+      posts: []
     }
+  }
+
+  componentDidMount() {
+    this.setState({posts: postsData.posts})
   }
 
   onSubmit = (value, isPrivate) => {

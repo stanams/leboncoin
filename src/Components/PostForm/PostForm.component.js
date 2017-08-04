@@ -36,7 +36,8 @@ export class PostForm extends React.Component {
       <form className='p-form'>
         <div className='p-form__input-wrapper'>
           <textarea onChange={ (e) => this.onInputChange(e) }
-                    value={ this.state.inputValue }/>
+                    value={ this.state.inputValue }
+                    placeholder='Ecrivez votre annonce...'/>
         </div>
         <div className='p-form__submit-section'>
           <ToggleSwitch checked={ this.state.isPrivate } switchToggle={ this.switchToggle.bind(this) }/>
